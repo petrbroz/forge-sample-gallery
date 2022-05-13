@@ -1,0 +1,10 @@
+{
+    "$schema": "../schema.json",
+    "title": "FDX Graph Explorer",
+    "description": "Simple explorer of Forge Data Exchange graphs.",
+    "tags": [
+        "fdx"
+    ],
+    "screenshotUrl": "https://github.com/petrbroz/fdx-graph-explorer/raw/master/screenshot.png",
+    "sourceUrl": "https://github.com/petrbroz/fdx-graph-explorer"
+}

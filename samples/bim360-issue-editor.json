@@ -1,0 +1,11 @@
+{
+    "$schema": "../schema.json",
+    "title": "BIM360 Issue Editor",
+    "description": "Prototype application for bulk-editing BIM 360 issues using Autodesk Forge APIs.",
+    "tags": [
+        "bim360"
+    ],
+    "screenshotUrl": "https://github.com/petrbroz/bim360-issue-editor/raw/develop/docs/screenshot.png",
+    "sourceUrl": "https://github.com/petrbroz/bim360-issue-editor",
+    "liveDemoUrl": "https://bim360-issue-editor.herokuapp.com"
+}

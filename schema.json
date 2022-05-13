@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/sample.schema.json",
+    "title": "Sample",
+    "description": "Information about a sample application.",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "description": "Sample app title."
+        },
+        "description": {
+            "type": "string",
+            "description": "Sample app description."
+        },
+        "tags": {
+            "type": "array",
+            "description": "List of tags relevant to the sample",
+            "items": {
+                "type": "string",
+                "enum": ["viewer", "data management", "model derivative", "design automation", "bim360", "digital twin", "configurator", "iot", "phasing", "point cloud"]
+            }
+        },
+        "screenshotUrl": {
+            "type": "string",
+            "description": "Screenshot URL"
+        },
+        "liveDemoUrl": {
+            "type": "string",
+            "description": "Live demo URL"
+        },
+        "sourceUrl": {
+            "type": "string",
+            "description": "Source code URL"
+        }
+    },
+    "required": [
+        "title"
+    ]
+}

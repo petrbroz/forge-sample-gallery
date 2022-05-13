@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "title": "Forge Industrial Construction",
+    "description": "Autodesk Forge application demonstrating possible usage in industrial construction.",
+    "tags": [
+        "viewer",
+        "digital twin"
+    ],
+    "screenshotUrl": "https://github.com/petrbroz/forge-industrial-construction/raw/develop/thumbnail.gif",
+    "liveDemoUrl": "https://forge-industrial-construction.autodesk.io/",
+    "sourceUrl": "https://github.com/petrbroz/forge-industrial-construction"
+}

@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "title": "Forge Phasing Demo",
+    "description": "Sample Autodesk Forge application providing a 4D/phasing preview capability.",
+    "tags": [
+        "viewer",
+        "phasing"
+    ],
+    "screenshotUrl": "https://github.com/petrbroz/forge-phasing-poc/raw/master/screenshot.png",
+    "liveDemoUrl": "https://forge-phasing-poc.herokuapp.com",
+    "sourceUrl": "https://github.com/petrbroz/forge-phasing-poc"
+}

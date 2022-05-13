@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "title": "Forge Digital Twin",
+    "description": "Autodesk Forge application demonstrating various use cases in manufacturing, specifically in context of digital twins.",
+    "tags": [
+        "viewer",
+        "digital twin"
+    ],
+    "screenshotUrl": "https://github.com/petrbroz/forge-digital-twin/raw/master/thumbnail.png",
+    "liveDemoUrl": "http://forge-digital-twin.autodesk.io",
+    "sourceUrl": "https://github.com/petrbroz/forge-digital-twin"
+}

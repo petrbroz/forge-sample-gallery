@@ -1,0 +1,11 @@
+{
+    "$schema": "../schema.json",
+    "title": "Forge Point Clouds",
+    "description": "Sample Autodesk Forge application showing the use of Potree pointclouds in the viewer.",
+    "tags": [
+        "viewer",
+        "point cloud"
+    ],
+    "screenshotUrl": "https://github.com/petrbroz/forge-potree-demo/raw/master/screenshot.png",
+    "sourceUrl": "https://github.com/petrbroz/forge-potree-demo"
+}

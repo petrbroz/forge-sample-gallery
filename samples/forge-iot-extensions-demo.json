@@ -1,0 +1,13 @@
+{
+    "$schema": "../schema.json",
+    "title": "Forge IoT Extensions Demo",
+    "description": "Autodesk Forge sample application visualizing IoT sensor data.",
+    "tags": [
+        "viewer",
+        "digital twin",
+        "iot"
+    ],
+    "screenshotUrl": "https://github.com/petrbroz/forge-iot-extensions-demo/raw/master/screenshot.png",
+    "liveDemoUrl": "https://forge-iot-example.herokuapp.com",
+    "sourceUrl": "https://github.com/petrbroz/forge-iot-extensions-demo"
+}

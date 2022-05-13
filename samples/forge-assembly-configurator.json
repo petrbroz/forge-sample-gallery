@@ -1,0 +1,13 @@
+{
+    "$schema": "../schema.json",
+    "title": "Forge Assembly Configurator",
+    "description": "Simple, generic assembly configurator built using the Autodesk Forge platform.",
+    "tags": [
+        "viewer",
+        "configurator",
+        "design automation"
+    ],
+    "screenshotUrl": "https://camo.githubusercontent.com/bb603ef47a8eed7ce91a5c5292eafa17efa0830ccbfe3f9b477a16af33ef2dd8/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4a7a33697a6846544570732f302e6a7067",
+    "liveDemoUrl": "https://forge-assembly-configurator.herokuapp.com",
+    "sourceUrl": "https://github.com/petrbroz/forge-assembly-configurator"
+}

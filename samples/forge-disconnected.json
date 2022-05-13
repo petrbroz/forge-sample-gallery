@@ -1,0 +1,11 @@
+{
+    "$schema": "../schema.json",
+    "title": "Forge Disconnected",
+    "description": "Sample Forge application using Service Workers and Cache APIs to provide a limited offline support.",
+    "tags": [
+        "viewer"
+    ],
+    "screenshotUrl": "https://github.com/petrbroz/forge-digital-twin/raw/master/thumbnail.png",
+    "liveDemoUrl": "https://forge-disconnected.autodesk.io",
+    "sourceUrl": "https://github.com/petrbroz/forge-disconnected"
+}
