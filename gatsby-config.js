@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/forge-sample-gallery',
   siteMetadata: {
     title: 'Forge Sample Gallery',
     description: 'Collection of sample applications built with Autodesk Forge',
