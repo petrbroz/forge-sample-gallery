@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-const Card = ({ title, description, screenshotUrl, localImage, liveDemoUrl, sourceUrl, tags }) => {
+const Card = ({ title, description, screenshotUrl, localImage, liveDemoUrl, sourceUrl, videoUrl, tags }) => {
     const image = getImage(localImage);
     return (
         <div className="col-md-6 col-lg-4">
@@ -23,8 +23,9 @@ const Card = ({ title, description, screenshotUrl, localImage, liveDemoUrl, sour
                     <p className="card-text">{description}</p>
                     <div className="d-flex justify-content-between align-items-center mt-auto">
                         <div className="btn-group">
-                            <a href={sourceUrl} target="_blank" className="btn btn-sm btn-outline-secondary">Source</a>
-                            <a href={liveDemoUrl} target="_blank" className="btn btn-sm btn-outline-secondary">Live Demo</a>
+                            { sourceUrl && <a href={sourceUrl} target="_blank" className="btn btn-sm btn-outline-secondary">Source</a> }
+                            { liveDemoUrl && <a href={liveDemoUrl} target="_blank" className="btn btn-sm btn-outline-secondary">Live Demo</a> }
+                            { videoUrl && <a href={videoUrl} target="_blank" className="btn btn-sm btn-outline-secondary">Video</a> }
                         </div>
                     </div>
                 </div>
