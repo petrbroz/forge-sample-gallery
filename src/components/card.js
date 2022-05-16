@@ -1,17 +1,31 @@
 import * as React from 'react';
-import { actions, action } from './card.module.css';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-const Card = ({ title, description, screenshotUrl, liveDemoUrl, sourceUrl }) => {
+const Card = ({ title, description, localImage, liveDemoUrl, sourceUrl, tags }) => {
+    const image = getImage(localImage);
     return (
-        <>
-            <h2>{title}</h2>
-            <p>{description}</p>
-            {screenshotUrl && <img src={screenshotUrl} alt="screenshot" />}
-            <div className={actions}>
-                {liveDemoUrl && <a href={liveDemoUrl} className={action} target="_blank">Live Demo</a>}
-                {sourceUrl && <a href={sourceUrl} className={action} target="_blank">Source Code</a>}
+        <div className="col-md-6 col-lg-4">
+            <div className="card h-100">
+                <GatsbyImage image={image} alt={description} className="card-img-top" />
+                <div className="card-body d-flex flex-column">
+                    <h5 className="card-title">{title}</h5>
+                    <div className="mb-2">
+                        {
+                            tags && tags.map(tag => (
+                                <span key={tag} className="badge rounded-pill bg-warning m-1">{tag}</span>
+                            ))
+                        }
+                    </div>
+                    <p className="card-text">{description}</p>
+                    <div className="d-flex justify-content-between align-items-center mt-auto">
+                        <div className="btn-group">
+                            <a href={sourceUrl} target="_blank" className="btn btn-sm btn-outline-secondary">Source</a>
+                            <a href={liveDemoUrl} target="_blank" className="btn btn-sm btn-outline-secondary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </>
+        </div>
     )
 };
 

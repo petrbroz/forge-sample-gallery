@@ -1,9 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { graphql } from 'gatsby';
-import Layout from '../components/layout';
-import Card from '../components/card';
-import { search, list } from './index.module.css';
+import Card from '../components/card.js';
 
 function fuzzyMatch(node, filter) {
   return (node.title.toLowerCase().includes(filter))
@@ -17,21 +15,27 @@ const IndexPage = ({ data }) => {
     ? data.allSamplesJson.nodes.filter(node => fuzzyMatch(node, filter.trim().toLowerCase()))
     : data.allSamplesJson.nodes;
   return (
-    <Layout>
-      <div className={search}>
-        <label>Filter</label>{' '}
-        <input type="text" name="filter" value={filter} onChange={ev => setFilter(ev.target.value)}></input>
-      </div>
-      <ul className={list}>
-        {
-          samples.map(sample => (
-            <li key={sample.id}>
-              <Card {...sample} />
-            </li>
-          ))
-        }
-      </ul>
-    </Layout>
+    <>
+      <nav className="navbar bg-light">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
+            <img width="185" src="https://developer.static.autodesk.com/forgeunified/releases/current/1.0.0.20220510190011/images/autodesk-logo-primary-rgb-black.svg"></img>
+          </a>
+        </div>
+      </nav>
+      <header className="py-5 text-center container">
+        <h1 className="fw-light">Forge Sample Gallery</h1>
+        <p className="lead text-muted">Collection of sample applications built using the <a href="https://forge.autodesk.com">Autodesk Forge</a> platform.</p>
+        <input type="text" className="form-control" id="filter" placeholder="Filter" value={filter} onChange={ev => setFilter(ev.target.value)} />
+      </header>
+      <main className="container">
+        <div className="row mb-4" style={{ gap: '1em 0' }}>
+          {
+            samples.map(sample => <Card key={sample.id} {...sample} />)
+          }
+        </div>
+      </main>
+    </>
   )
 };
 
@@ -43,9 +47,13 @@ export const query = graphql`
         title
         description
         tags
-        screenshotUrl
         liveDemoUrl
         sourceUrl
+        localImage {
+          childImageSharp {
+            gatsbyImageData(width: 400)
+          }
+        }
       }
     }
   }
