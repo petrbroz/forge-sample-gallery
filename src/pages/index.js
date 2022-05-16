@@ -47,9 +47,13 @@ export const query = graphql`
         title
         description
         tags
-        screenshotUrl
         liveDemoUrl
         sourceUrl
+        localImage {
+          childImageSharp {
+            gatsbyImageData(width: 400)
+          }
+        }
       }
     }
   }

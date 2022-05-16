@@ -1,10 +1,12 @@
 import * as React from 'react';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-const Card = ({ title, description, screenshotUrl, liveDemoUrl, sourceUrl, tags }) => {
+const Card = ({ title, description, localImage, liveDemoUrl, sourceUrl, tags }) => {
+    const image = getImage(localImage);
     return (
         <div className="col-md-6 col-lg-4">
             <div className="card h-100">
-                <img src={screenshotUrl} alt={description} className="card-img-top"></img>
+                <GatsbyImage image={image} alt={description} className="card-img-top" />
                 <div className="card-body d-flex flex-column">
                     <h5 className="card-title">{title}</h5>
                     <div className="mb-2">

@@ -6,8 +6,6 @@ module.exports = {
     siteUrl: 'https://forge-sample-gallery.autodesk.io'
   },
   plugins: [
-    'gatsby-plugin-image',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -15,6 +13,16 @@ module.exports = {
         path: `${__dirname}/samples`,
       }
     },
-    'gatsby-transformer-json'
+    'gatsby-transformer-json',
+    {
+      resolve: 'gatsby-plugin-remote-images',
+      options: {
+        nodeType: 'SamplesJson',
+        imagePath: 'screenshotUrl'
+      }
+    },
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp'
   ]
 };
