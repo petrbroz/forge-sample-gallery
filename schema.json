@@ -29,6 +29,10 @@
             "type": "string",
             "description": "Live demo URL"
         },
+        "videoUrl": {
+            "type": "string",
+            "description": "Video recording URL"
+        },
         "sourceUrl": {
             "type": "string",
             "description": "Source code URL"

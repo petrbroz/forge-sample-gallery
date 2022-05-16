@@ -7,5 +7,6 @@
         "webhooks"
     ],
     "screenshotUrl": "https://github.com/Autodesk-Forge/forge-bim360notifier/raw/master/thumbnail.png",
+    "liveDemoUrl": "https://bim360notifier.autodesk.io",
     "sourceUrl": "https://github.com/Autodesk-Forge/forge-bim360notifier"
 }
