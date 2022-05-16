@@ -47,8 +47,10 @@ export const query = graphql`
         title
         description
         tags
-        liveDemoUrl
         sourceUrl
+        liveDemoUrl
+        videoUrl
+        blogUrl
         screenshotUrl
         localImage {
           childImageSharp {

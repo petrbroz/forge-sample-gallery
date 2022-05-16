@@ -18,7 +18,7 @@
             "description": "List of tags relevant to the sample",
             "items": {
                 "type": "string",
-                "enum": ["viewer", "data management", "model derivative", "design automation", "bim360", "digital twin", "configurator", "iot", "phasing", "point cloud", "webhooks"]
+                "enum": ["viewer", "data management", "model derivative", "design automation", "bim360", "digital twin", "configurator", "iot", "phasing", "point cloud", "webhooks", "ar/vr"]
             }
         },
         "screenshotUrl": {
@@ -32,6 +32,10 @@
         "videoUrl": {
             "type": "string",
             "description": "Video recording URL"
+        },
+        "blogUrl": {
+            "type": "string",
+            "description": "Blog post URL"
         },
         "sourceUrl": {
             "type": "string",
