@@ -49,6 +49,7 @@ export const query = graphql`
         tags
         liveDemoUrl
         sourceUrl
+        screenshotUrl
         localImage {
           childImageSharp {
             gatsbyImageData(width: 400)
