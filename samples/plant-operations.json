@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "title": "Plant Operations",
+    "description": "This sample shows 2D P&ID and 3D Plant models connected via tag values.",
+    "tags": [
+        "viewer"
+    ],
+    "screenshotUrl": "https://github.com/augustogoncalves/forge-plant-operation/raw/master/thumbnail.gif",
+    "sourceUrl": "https://github.com/augustogoncalves/forge-plant-operation",
+    "liveDemoUrl": "https://forgeplant.herokuapp.com",
+    "blogUrl": "https://forge.autodesk.com/blog/placing-custom-markup-dbid"
+}

@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "title": "BIM360 & HoloLens",
+    "description": "Sample application showing how to view and manipulate BIM 360 content from a HoloLens device using AR/VR Toolkit, Mixed Reality Toolkit, and Forge/BIM360 APIs.",
+    "tags": [
+        "ar/vr"
+    ],
+    "screenshotUrl": "https://camo.githubusercontent.com/65fc80f31bf436b1199a4c79137f1b186f9bee45971e8a257975e0386d950a52/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6835597750386e41446e302f302e6a7067",
+    "liveDemoUrl": "https://poc-hololens-bim360.herokuapp.com",
+    "sourceUrl": "https://github.com/petrbroz/poc-hololens-bim360",
+    "videoUrl": "https://www.youtube.com/watch?v=h5YwP8nADn0"
+}

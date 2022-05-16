@@ -1,0 +1,8 @@
+{
+    "$schema": "../schema.json",
+    "title": "Phasing/Scheduling",
+    "description": "Visualization of the project timeline phase-wise.",
+    "tags": [],
+    "screenshotUrl": "https://github.com/deepalics0044/_GIF/raw/master/_GIF/Forge%20BIM%20Phasing1.gif",
+    "liveDemoUrl": "http://forge-bim-phasing.azurewebsites.net/"
+}

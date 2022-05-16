@@ -1,0 +1,11 @@
+{
+    "$schema": "../schema.json",
+    "title": "Doors/Windows Configurator",
+    "description": "Jeldwen's sales tool for choosing color/part options.",
+    "tags": [
+        "configurator"
+    ],
+    "screenshotUrl": "https://github.com/wallabyway/JELDWIN-configurator/raw/master/jeldwin-anim.gif",
+    "sourceUrl": "https://github.com/wallabyway/JELDWIN-configurator",
+    "liveDemoUrl": "https://www.jeld-wen.com/en-us/products/windows/builders-vinyl-v-2500/double-hung"
+}
