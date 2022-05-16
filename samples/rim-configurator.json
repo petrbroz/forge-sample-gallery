@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "title": "Rim Configurator",
+    "description": "Web application that demonstrates the use of Inventor Design Automation and iLogic capabilities to create a configuration tool.",
+    "tags": [
+        "design automation",
+        "configurator"
+    ],
+    "screenshotUrl": "https://github.com/sajith-subramanian/forge-rimconfigurator-inventor/raw/master/thumbnail.gif",
+    "sourceUrl": "https://github.com/sajith-subramanian/forge-rimconfigurator-inventor",
+    "liveDemoUrl": "https://forge-rimconfigurator-inventor.herokuapp.com"
+}

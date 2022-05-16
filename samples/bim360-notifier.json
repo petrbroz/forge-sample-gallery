@@ -1,0 +1,11 @@
+{
+    "$schema": "../schema.json",
+    "title": "BIM360 Notifier",
+    "description": "This sample application demonstrate Webhooks notifications for changes on BIM 360 Docs, BIM 360 Team (formerly A360) and Fusion 360 to SMS, Email and chat bot.",
+    "tags": [
+        "bim360",
+        "webhooks"
+    ],
+    "screenshotUrl": "https://github.com/Autodesk-Forge/forge-bim360notifier/raw/master/thumbnail.png",
+    "sourceUrl": "https://github.com/Autodesk-Forge/forge-bim360notifier"
+}

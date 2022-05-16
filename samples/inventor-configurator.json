@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "title": "Inventor Configurator",
+    "description": "Demo application showcasing Configuration with Design Automation for Inventor.",
+    "tags": [
+        "design automation",
+        "configurator"
+    ],
+    "screenshotUrl": "https://github.com/Autodesk-Forge/forge-configurator-inventor/raw/master/img/thumbnail.gif",
+    "sourceUrl": "https://github.com/Autodesk-Forge/forge-configurator-inventor",
+    "liveDemoUrl": "http://inventor-config-demo.autodesk.io"
+}

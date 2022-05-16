@@ -1,0 +1,11 @@
+{
+    "$schema": "../schema.json",
+    "title": "BIM360 Model Coordination: Clash Issue",
+    "description": "This repository demonstrates the scenario: analyze clash issue and create clash issue from application.",
+    "tags": [
+        "bim360"
+    ],
+    "screenshotUrl": "https://github.com/Autodesk-Forge/forge-bim360-clashissue/raw/master/thumbnail.png",
+    "sourceUrl": "https://github.com/Autodesk-Forge/forge-bim360-clashissue",
+    "liveDemoUrl": "https://bim360-clash-issue.herokuapp.com"
+}

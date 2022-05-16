@@ -1,0 +1,11 @@
+{
+    "$schema": "../schema.json",
+    "title": "BIM360 Model Coordination: Clash View",
+    "description": "This repository demonstrates basic viewing of clash raw data by Model Coordination API. It lists all clash instances data, and allows the user to click one instance to highlight within Forge Viewer.",
+    "tags": [
+        "bim360"
+    ],
+    "screenshotUrl": "https://github.com/Autodesk-Forge/forge-bim360-clashview/raw/master/thumbnail.png",
+    "sourceUrl": "https://github.com/Autodesk-Forge/forge-bim360-clashview",
+    "liveDemoUrl": "https://bim360-clash-basic-view.herokuapp.com"
+}

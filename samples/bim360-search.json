@@ -1,0 +1,11 @@
+{
+    "$schema": "../schema.json",
+    "title": "BIM360 Search",
+    "description": "Demonstrate how to index metadata into a Elasticsearch database (AWS Service) and search on it.",
+    "tags": [
+        "bim360"
+    ],
+    "screenshotUrl": "https://github.com/Autodesk-Forge/forge-bim360search/raw/master/thumbnail.gif",
+    "sourceUrl": "https://github.com/Autodesk-Forge/forge-bim360search",
+    "liveDemoUrl": "http://bim360search.autodesk.io"
+}

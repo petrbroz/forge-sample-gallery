@@ -18,7 +18,7 @@
             "description": "List of tags relevant to the sample",
             "items": {
                 "type": "string",
-                "enum": ["viewer", "data management", "model derivative", "design automation", "bim360", "digital twin", "configurator", "iot", "phasing", "point cloud"]
+                "enum": ["viewer", "data management", "model derivative", "design automation", "bim360", "digital twin", "configurator", "iot", "phasing", "point cloud", "webhooks"]
             }
         },
         "screenshotUrl": {
