@@ -23,6 +23,14 @@ module.exports = {
     },
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp'
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: [
+          'G-WQKPTQ9XE4'
+        ]
+      }
+    }
   ]
 };
