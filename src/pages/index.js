@@ -21,6 +21,7 @@ const IndexPage = ({ data }) => {
           <a className="navbar-brand" href="#">
             <img width="185" src="https://developer.static.autodesk.com/forgeunified/releases/current/1.0.0.20220510190011/images/autodesk-logo-primary-rgb-black.svg"></img>
           </a>
+          <a href="https://github.com/petrbroz/forge-sample-gallery/tree/master/samples" class="btn btn-outline-success ml-auto">Add Sample</a>
         </div>
       </nav>
       <header className="py-5 text-center container">
